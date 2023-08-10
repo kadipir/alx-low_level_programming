@@ -1,11 +1,9 @@
 #include <stdio.h>
 /**
- * tis function is the entry point to the program
- * main - program that outputs a line with puts functiom
- * Returns = 0 (success)
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
-{char message[] = "Programming is like building a multilingual puzzle";
-puts(message);
+{puts("Programming is like building a multilingual puzzle \n");
 return (0);
 }
