@@ -10,8 +10,8 @@ for (x = 0 ; x < 10 ; x++)
 {
 for (y = 0 ; y < 10 ; y++)
 if (x < y)
-{{putchar((x % 10) + '10');
-putchar((y % 10) + '10');
+{{putchar((x % 10) + '0');
+putchar((y % 10) + '0');
 if (x != 8 || (x == 8 && y != 9))
 {putchar(',');
 putchar(' ');
