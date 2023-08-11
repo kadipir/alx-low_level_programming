@@ -18,7 +18,7 @@ if (y < z)
 putchar((y % 10) + '0');
 putchar((z % 10) + '0');
 {
-if (x == 7)
+if (x != 7)
 putchar(',');
 putchar(' ');
 }
