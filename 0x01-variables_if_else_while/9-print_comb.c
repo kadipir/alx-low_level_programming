@@ -8,7 +8,10 @@
 int main(void)
 {char c;
 for (c = '0' ; c <= '9' ; c++)
-putchar(c',');
+putchar(c);
+if (c <= '8')
+putchar(',')
+putchar(' ')
 putchar('\n');
 return (0);
 }
