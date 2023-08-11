@@ -8,10 +8,10 @@ int main(void)
 {int x, y;
 for (x = 0 ; x < 10 ; x++)
 {for (y = 0 ; y < 10 ; y++)
-if (i < j)
-{{putchar(i);
-putchar(j);
-if (i !== 8 || i == 8 && j != 9)
+if (x < y)
+{{putchar(x);
+putchar(y);
+if (x != 8 || x == 8 && y != 9)
 {putchar(',');
 putchar(' ');
 }
