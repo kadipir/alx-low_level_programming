@@ -12,7 +12,7 @@ for (y = 0 ; y < 100 ; y++)
 {
 if (x < y)
 putchar((x % 10) + '0');
-putchar(' ')
+putchar(' ');
 putchar((y % 10) + '0');
 if (x != 98 && y != 99)
 {putchar(',');
