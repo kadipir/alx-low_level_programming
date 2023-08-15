@@ -5,10 +5,12 @@
  * Return: value of last digit or 0 if any other 
  */
 int print_last_digit(int c)
-{  int n = c % 10
-         if (c % 10)
+{  int n = c % 10;
+         if (n < 0)
 	 {
-		_putchar(n);
+              n = n * -1;	 
+
 	 }
-	 return (0);
+     _putchar(n + '0');
+    return (n);	     
 }
