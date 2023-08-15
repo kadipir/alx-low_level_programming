@@ -4,7 +4,7 @@
  * @x: number to be computed
  * @y: second number to be computed
  * Return: integer value
- */ 
+ */
 int add(int x, int y)
 {
 	int sum;
