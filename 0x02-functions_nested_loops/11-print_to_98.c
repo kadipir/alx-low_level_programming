@@ -5,9 +5,9 @@
  */
 void print_to_98(int n)
 {
-	int x;
+	int n;
        
-	for (x = 0 ; x < 99 ; x++}
+	for (n = 0 ; n < 99 ; n++)
 	{
 	  _putchar(x);
 	  _putchar(',');
