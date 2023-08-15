@@ -16,9 +16,11 @@ if (x > 9)
 c = x % 10;
 y = (x - c) / 10;
 _putchar(44);
+
 _putchar(32);
 _putchar(y + '0');
 _putchar(c + '0');
+}
 else
 {
 if (b != 0)
@@ -33,5 +35,5 @@ _putchar(x);
 _putchar('\n');
 }
 }
-}
+
 
