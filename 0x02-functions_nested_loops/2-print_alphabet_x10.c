@@ -3,7 +3,7 @@
  * print_alphabet_x10() - printing the alphabet 10 times
  * Return: void
  */
-print_alphabet_x10()
+void print_alphabet_x10(void)
 {int i;
 char a;
 for (i = 0 ; i <= 9 ; i++)
