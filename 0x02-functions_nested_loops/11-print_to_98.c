@@ -14,7 +14,7 @@ _putchar(' ');
 _putchar('\n');
 for (; n >= 98 ; n--)
 {
-_putchar(n + 'o');
+_putchar(n + '0');
 _putchar(',');
 _putchar(' ');
 }
