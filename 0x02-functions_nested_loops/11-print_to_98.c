@@ -18,6 +18,6 @@ _putchar(n + 'o');
 _putchar(',');
 _putchar(' ');
 }
-_putchar('\n')
+_putchar('\n');
 }
 
