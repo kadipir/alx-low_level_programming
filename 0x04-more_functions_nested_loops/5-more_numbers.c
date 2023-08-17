@@ -15,6 +15,9 @@ if (b > 9)
 _putchar((b / 10) + '0');
 }
 _putchar((b % 10) + '0');
+}else
+{
+_putchar(b + '0');
 }
 _putchar('\n');
 }
