@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *
- *
- *
+ * print_line - prints the character '_'
+ * @n: the number of lines to draw
+ * Return: void
  */
 void print_line(int n)
 {
