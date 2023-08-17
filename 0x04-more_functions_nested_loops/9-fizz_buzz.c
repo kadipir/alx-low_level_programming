@@ -8,21 +8,21 @@ int main(void)
 int a;
 for (a = 1 ; a < 101 ; a++)
 {
-if (a % 3 = 0)
+if (a % 3 == 0)
 {
 printf("fizz");
 }
-else if (a % 5 = 0)
+else if (a % 5 == 0)
 {
 printf("buzz");
 }
-else if (a % 15 = 0)
+else if (a % 15 == 0)
 {
-printf(""fizzbuzz);
+printf("fizzbuzz");
 }
-printf(a);
+printf("%d", a);
 }
-printf('\n');
+printf("\n");
 return (0);
 }
 
