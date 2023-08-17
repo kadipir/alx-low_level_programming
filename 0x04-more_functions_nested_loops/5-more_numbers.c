@@ -9,12 +9,8 @@ int a, b;
 for (a = 0 ; a < 10 ; a++)
 {
 for (b = 0 ; b < 15 ; a++)
-{
-if (b < 10)
-{
-_putchar(b + '0');
-}
-else if (b >= 10)
+{ 
+if (b >= 10)
 {
 _putchar((b / 10) + '0');
 }
