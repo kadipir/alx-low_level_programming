@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *
- *
- *
- */ 
+ *print_triangle - printing triangle with #
+ *@size: size of triangle
+ *Return: void
+ */
 void print_triangle(int size)
-{       
+{
 int a, b, c;
 
 if (size <= 0)
