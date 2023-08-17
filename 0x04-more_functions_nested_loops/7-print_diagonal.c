@@ -7,11 +7,11 @@ void print_diagonal(int n)
 {
 int a, b;
 
-for (a = 0 ; a <= n ; a++)
+for (a = 0 ; a < n ; a++)
 {
 if (n > 1)
 {
-for (b = 0 ; b < n ; b++)
+for (b = 0 ; b < a ; b++)
 {
 _putchar(' ');
 }
