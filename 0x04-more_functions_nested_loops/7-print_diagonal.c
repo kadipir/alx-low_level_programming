@@ -1,22 +1,26 @@
 #include "main.h"
 /**
- * print_diagonal - prints the character '/'
- * @n: the number of times the character will be printed
+ *
+ *
  */
 void print_diagonal(int n)
 {
-int a;
+int a, b;
 
-for (a = 0 ; a < n ; n++)
+for (a = 0 ; a <= n ; a++)
 {
-if (a > 0)
+if (n > 1)
 {
-_putchar(92);
+for (b = 0 ; b < n ; b++)
+{
+_putchar(' ');
+}
+}
+_putchar('\\');
 _putchar('\n');
 }
-else
+if (n <= 0)
 {
 _putchar('\n');
-}
 }
 }
