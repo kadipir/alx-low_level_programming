@@ -14,7 +14,7 @@ if (b < 10)
 {
 _putchar(b + '0');
 }
-else
+else if (b >= 10)
 {
 _putchar((b / 10) + '0');
 }
