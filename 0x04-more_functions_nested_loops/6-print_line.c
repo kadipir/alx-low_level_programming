@@ -6,7 +6,8 @@
  */
 void print_line(int n)
 {
-for (n = 0 ; n <= 11; n++)
+int a;
+for (a = 0 ; a <= n; n++)
 {
 if (n > 0)
 {
