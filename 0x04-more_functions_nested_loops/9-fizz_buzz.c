@@ -21,6 +21,7 @@ else if (a % 15 == 0)
 printf("fizzbuzz");
 }
 printf("%d", a);
+printf(" ");
 }
 printf("\n");
 return (0);
