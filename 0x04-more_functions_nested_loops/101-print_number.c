@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_number - printing numbers
- * @n - number to be printed
+ * @n:  number to be printed
  */
 void print_number(int n)
 {
@@ -9,12 +9,12 @@ unsigned int i = n;
 
 if (n < 0)
 {
-_putchar(48);
+_putchar(45);
 i = -i;
 }
-if (n > 9)
+if (i / 10)
 {
-_putchar((n / 10) + '0');
+print_number(i / 10);
 }
-_putchar((n % 10) + '0');
+_putchar((i % 10) + '0');
 }
