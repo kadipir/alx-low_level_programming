@@ -16,12 +16,10 @@ if (a == b)
 {
 printf("%ld\n", b);
 }
-}
-else
-{
 c = a / b;
 a = c;
 }
 }
 return (0);
 }
+
