@@ -7,8 +7,8 @@ void puts_half(char *str)
 {
 int half, full;
 
-for (full = 0 ; str[full] != 0 ; full++)
- 
+for (full = 0 ; str[full] != '\0' ; full++)
+
 if (full % 2 == 1)
 {
 half = (full - 1) / 2;
