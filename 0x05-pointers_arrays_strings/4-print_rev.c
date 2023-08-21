@@ -11,7 +11,7 @@ while (s[a])
 {
 a++;
 }
-while(a--)
+while (a--)
 {
 _putchar(s[a]);
 }
