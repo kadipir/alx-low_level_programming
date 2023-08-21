@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _strcpy - copy strings fron=m one address to another 
+ * _strcpy - copy strings fron=m one address to another
  * @dest: the first address
  * @src:second address
  * Return: value that is copied
