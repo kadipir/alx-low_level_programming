@@ -6,7 +6,10 @@
  */
 int _strlen(char *s)
 {
-int len;
-len = strlen(*s);
-return (len);
+int string_l;
+
+string_l = 0;
+while(s[string_l])
+   string_l++
+return (string_l);
 }
