@@ -5,9 +5,12 @@
  */
 void puts_half(char *str)
 {
-int half, full;
+int half, full = 0;
 
-for (full = 0 ; str[full] != '\0' ; full++)
+while (str[full] != '\0')
+{
+full++);
+}
 
 if (full % 2 == 1)
 {
