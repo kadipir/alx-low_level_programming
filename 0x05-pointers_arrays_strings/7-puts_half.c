@@ -8,10 +8,16 @@ void puts_half(char *str)
 int half, full;
 
 for (full = 0 ; str[full] != 0 ; full++)
-
-half = full / 2;
+ 
 if (full % 2 == 1)
-	half++;
+{
+half = (full - 1) / 2;
+half += 1;
+}
+else
+{
+half = full / 2;
+}
 
 while (half < full)
 {
