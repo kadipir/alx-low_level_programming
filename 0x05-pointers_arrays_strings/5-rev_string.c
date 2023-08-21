@@ -8,7 +8,7 @@ void rev_string(char *s)
 int a, k, half;
 char temp;
 
-for (a = 0 ; a != '\0' ; a++)
+for (a = 0 ; s[a] != '\0' ; a++)
 ;
 k = 0;
 half = a / 2;
