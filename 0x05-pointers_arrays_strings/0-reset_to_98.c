@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - entry point
- *
+ * reset_to_98 - reseting the value of a variable to be 98
+ * @n: address variable
  *
  */
 void reset_to_98(int *n)
