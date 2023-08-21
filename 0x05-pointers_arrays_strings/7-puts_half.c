@@ -9,7 +9,7 @@ int half, full = 0;
 
 while (str[full] != '\0')
 {
-full++);
+full++;
 }
 
 if (full % 2 == 1)
