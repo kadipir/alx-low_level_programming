@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * -puts - prints the string and the new line
+ * _puts - prints the string and the new line
  *  @str: pointer to the string
  * Return:string and new line
  */
