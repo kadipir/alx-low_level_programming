@@ -21,5 +21,5 @@ while (*s != '\0')
 result = result * 10 + (*s - '0');
 s++;
 }
-return (result * sign);
+return (result *sign);
 }
