@@ -18,7 +18,14 @@ s++;
 }
 while (*s != '\0')
 {
+if (*s > '0' || *s < 10)
+{
 result = result * 10 + (*s - '0');
+}
+else
+{
+return (1);
+}
 s++;
 }
 return (result *sign);
