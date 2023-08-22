@@ -24,7 +24,7 @@ result = result * 10 + (*s - '0');
 }
 else
 {
-return (1);
+return (0);
 }
 s++;
 }
