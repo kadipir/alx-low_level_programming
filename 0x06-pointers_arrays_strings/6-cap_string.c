@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * cap_string - converts all characters to upper case
+ * @str: pointer to the string
+ * Return: result after conversion
  */ 
 
 char *cap_string(char *str)
