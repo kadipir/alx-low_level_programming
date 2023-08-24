@@ -17,7 +17,7 @@ index++;
 for (a = 0 ; src[a] && a < n ; a++)
 {
 dest[index] =  src[a];
-index++
+index++;
 }
 dest[index] = '\0';
 return (dest);
