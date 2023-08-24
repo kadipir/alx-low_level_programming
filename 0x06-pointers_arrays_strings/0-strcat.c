@@ -15,9 +15,9 @@ while (*src != '\0')
 {
 *dest = *src;
 dest++;
-src++
+src++;
 }
-*desti = '0'
+*desti = '\0';
 int *desti = desti;
-return (desti)
+return (desti);
 }
