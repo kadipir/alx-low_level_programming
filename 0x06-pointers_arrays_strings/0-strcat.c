@@ -18,6 +18,6 @@ for (i = 0 ; src[i] ; i++)
 dest[dlen] = src[i];
 dlen++;
 }
-dest[len] = '\0';
+dest[dlen] = '\0';
 return (dest);
 }
