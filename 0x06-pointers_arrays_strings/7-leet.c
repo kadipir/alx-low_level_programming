@@ -1,12 +1,12 @@
 #include "main.h"
-/** 
+/**
  * *leet - converts characters to 1337
- * @str: pointer to the 
+ * @str: pointer 
  * Return: 1337 (successful)
  */
 char *leet(char *a)
 {
-	
+
 int i, j;
 char s1[] = "aAeEoOtTlL";
 char s2[] = "4433007711";
