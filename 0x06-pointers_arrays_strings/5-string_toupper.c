@@ -1,19 +1,20 @@
 #include "main.h"
 /**
  * *string_toupper - converts lower to uppercase
- * @*: pointer to anull terminated string
+ * @upper: pointer to anull terminated string
  * Return: the resultant string 
  */
-char *string_toupper(char *)
+char *string_toupper(char *upper)
 {
-char *string = upper
-while (*string != '\0')
+int index = 0;
+
+while (upper[index] != '\0')
 {
-if (islower(*string))
+if (upper[index] >= 'a' && upper[index] <= 'z')
 {
-*string = toupper(*string);
+upper[index] -= 32;
 }
-string++;
+index++;
 }
 return (upper);
 }	
