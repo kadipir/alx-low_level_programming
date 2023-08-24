@@ -2,7 +2,7 @@
 /**
  * *string_toupper - converts lower to uppercase
  * @upper: pointer to anull terminated string
- * Return: the resultant string 
+ * Return: the resultant string
  */
 char *string_toupper(char *upper)
 {
@@ -17,4 +17,4 @@ upper[index] -= 32;
 index++;
 }
 return (upper);
-}	
+}
