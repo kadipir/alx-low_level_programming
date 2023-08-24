@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * *leet - converts characters to 1337
- * @str: pointer 
+ * @a: pointer
  * Return: 1337 (successful)
  */
 char *leet(char *a)
