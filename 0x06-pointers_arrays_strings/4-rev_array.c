@@ -14,5 +14,8 @@ while (left < right)
 int temp = a[left];
 a[left] = a[right];
 a[right] = temp;
+
+right--;
+left++;
 }
 }
