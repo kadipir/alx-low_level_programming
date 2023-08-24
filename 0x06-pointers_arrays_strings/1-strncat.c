@@ -8,15 +8,17 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-int index = 0, dest_len = 0;
+int index = 0, a;
 
 while (dest[index])
 {
-dest_len++;
+index++;
 }
-for (index = 0 ; src[index] && index < n ; index++)
+for (a = 0 ; src[a] && a < n ; a++)
 {
-dest[dest_len++] =  src[index];
+dest[index] =  src[a];
+index++
 }
+dest[index] = '\0';
 return (dest);
 }
