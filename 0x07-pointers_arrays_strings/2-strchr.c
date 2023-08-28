@@ -1,9 +1,9 @@
-#include "main.c"
+#include "main.h"
 /**
- *
- *
- *
- *
+ * _strchr - entry point
+ * @s: string to be studied
+ * @c: character sort after
+ * Return: pointer or Null
  */
 char *_strchr(char *s, char c)
 {
