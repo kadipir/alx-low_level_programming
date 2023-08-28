@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * @_memset - entry point
+ * _memset - entry point
  * @s: pointer to the destination
  * @b: character to be printed
  * @n: bytes
