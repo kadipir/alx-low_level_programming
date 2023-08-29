@@ -16,7 +16,7 @@ for (b = 0 ; accept[b] != '\0' ; b++)
 {
 if (s[a] == accept[b])
 {
-return (s + 1);
+return (s + a);
 }
 }
 }
