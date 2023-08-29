@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *
- *
+ * print_chessboard - entry point
+ * @a: input
  *
  *
  *
