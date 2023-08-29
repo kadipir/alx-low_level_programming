@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
- *
- *
- *
+ * _strpbrk - entry point
+ * @s: character to be traced
+ * @accept: input
+ * Return: NULL or s
  */
 char *_strpbrk(char *s, char *accept)
 {
