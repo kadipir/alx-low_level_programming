@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *
- *
- *
- *
+ * _strspn - entry point
+ * @s: input
+ * @accept: input
+ * Return: value (successfull)
  */
 unsigned int _strspn(char *s, char *accept)
 {
