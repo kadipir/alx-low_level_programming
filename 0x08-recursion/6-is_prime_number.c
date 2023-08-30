@@ -2,6 +2,7 @@
 /**
  * is_prime_number - entry point
  * @n: input
+ * @i: input
  * Return: 0 or 1
  */
 int actual_prime(int n, int i);
