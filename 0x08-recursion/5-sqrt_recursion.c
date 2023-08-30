@@ -1,9 +1,10 @@
 #include "main.h"
 /**
  * _sqrt_recursion - entry point
+ * actual_sqrt_recursion - finds actual squareroot
  * @n: input
+ * @i: input
  * Return: squareroot
- *
  */
 int actual_sqrt_recursion(int n, int i);
 int _sqrt_recursion(int n)
