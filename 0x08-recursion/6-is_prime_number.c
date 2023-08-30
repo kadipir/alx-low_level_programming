@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * is_prime - entry point
+ * is_prime_number - entry point
  * @n: input
  * Return: 0 or 1
  */
@@ -11,13 +11,13 @@ if (n <= 1)
 {
 return (0);
 }
-return (actual_prime(n, n-1));
+return (actual_prime(n, n - 1));
 }
 
 /**
  * actual_prime - calculates prime number
  * @n: input
- * @i:input
+ * @i: input
  * Return: 0 or 1
  */
 int actual_prime(int n, int i)
