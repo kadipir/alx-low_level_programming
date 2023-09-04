@@ -22,12 +22,12 @@ size++;
 
 char *s;
 
-s = malloc((sizeof(char) * length) + 1);
+s = malloc((sizeof(char) * size) + 1);
 
-for (i = 0 ; i < length ; i++)
+for (i = 0 ; i < size ; i++)
 {
 s[i] = str[i];
 }       
-}
+
 return (s);
 }
