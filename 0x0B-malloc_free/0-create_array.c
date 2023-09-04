@@ -12,6 +12,6 @@ if (size <= 0)
 {
 return (NULL);
 }
-c = malloc (sizeof(size));
-return (s);
+c = malloc(sizeof(size));
+return (c);
 }
