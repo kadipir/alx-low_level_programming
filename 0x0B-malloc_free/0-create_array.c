@@ -19,9 +19,9 @@ if (a == NULL)
 {
 return (NULL);
 }
-for (i = 0 ; i < size ; i++)
+for (s = 0 ; s < size ; s++)
 {
-a[i] = c;
+a[s] = c;
 }
 a = malloc(sizeof(size) * size);
 return (a);
