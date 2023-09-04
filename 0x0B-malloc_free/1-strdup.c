@@ -28,6 +28,6 @@ for (i = 0 ; i < size ; i++)
 s[i] = str[i];
 }
 
-free(s);
+s[i] = '\0';
 return (s);
 }
