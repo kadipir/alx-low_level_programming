@@ -9,7 +9,7 @@
 char *str_concat(char *s1, char *s2)
 {
 char *s;
-int i = 1, j = 1;
+int i = 1, j = 1, k, l
 
 if (s1 == NULL) 
 {
@@ -31,7 +31,7 @@ while (s2[j])
 j++;
 }
 
-int l = i + j;
+l = i + j;
 s = malloc((sizeof(char) * l) + 1);
 
 if (s == NULL)
@@ -43,11 +43,11 @@ while (k < l)
 {
 if (k <= i)
 {
-s[k] = s1[k]
+s[k] = s1[k];
 }
 if (k >= i)
 {
-s[k] = s2[j]
+s[k] = s2[j];
 j++;
 }
 k++;
