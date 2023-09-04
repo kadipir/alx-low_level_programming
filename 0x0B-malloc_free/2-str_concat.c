@@ -30,7 +30,7 @@ s = malloc(i + j + 1);
 
 if (s == NULL)
 {
-Return (NULL);
+return (NULL);
 }
 s = '\0';
 return (s);
