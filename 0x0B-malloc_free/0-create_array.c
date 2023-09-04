@@ -15,6 +15,7 @@ if(size == 0)
 {
 return (NULL);
 }
+a = malloc(sizeof(char) * size);
 if (a == NULL)
 {
 return (NULL);
@@ -23,6 +24,6 @@ for (s = 0 ; s < size ; s++)
 {
 a[s] = c;
 }
-a = malloc(sizeof(size) * size);
+
 return (a);
 }
