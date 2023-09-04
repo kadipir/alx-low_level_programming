@@ -8,14 +8,17 @@
  */
 char *_strdup(char *str)
 {
-int i, size;
+int i, size = 1;
 
 if (str == NULL)
 {
-return ((NULL);
+return (NULL);
 }
 
-int length = strlen(str);
+while (str[size])
+{
+size++;
+}
 
 char *s;
 
