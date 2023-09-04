@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * create_array - entry point
  * @size: bytes
