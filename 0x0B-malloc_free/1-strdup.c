@@ -21,12 +21,13 @@ while (str[size])
 size++;
 }
 
-s = malloc((sizeof(char) * size) + 1);
+s = malloc((sizeof(char) * size) +1);
 
 for (i = 0 ; i < size ; i++)
 {
 s[i] = str[i];
-}       
+}
 
+free(s);
 return (s);
 }
