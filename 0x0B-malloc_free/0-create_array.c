@@ -5,13 +5,14 @@
  * create_array - entry point
  * @size: bytes
  * @c: input
+ * Return: pointer to string
  */
 char *create_array(unsigned int size, char c)
 {
 unsigned int s;
 char *a;
 
-if(size == 0)
+if (size == 0)
 {
 return (NULL);
 }
