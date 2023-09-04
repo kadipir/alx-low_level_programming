@@ -8,15 +8,6 @@
  */
 char *_strdup(char *str)
 {
-#include "main.h"
-/**
- * _strdup - entry point
- * @str: input
- * Return: pointer to the string
- *
- */
-char *_strdup(char *str)
-{
 int i, size;
 
 if (str == NULL)
