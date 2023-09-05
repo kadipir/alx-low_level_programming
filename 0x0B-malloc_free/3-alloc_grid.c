@@ -15,14 +15,14 @@ if (z <= 0)
 {
 return (NULL);
 }
-i = malloc((sizeof(int *)) * height);
+i = (int **)malloc((sizeof(int *)) * height);
 if (i == NULL)
 {
 return (NULL);
 }
 for (l = 0 ; l < height ; l++)
 {
-i[l] = malloc((sizeof(int)) * width);
+i[l] = (int *)malloc((sizeof(int)) * width);
 if (i[l] ==  NULL)
 {
 for (l-- ; l >= 0 ; l--)
