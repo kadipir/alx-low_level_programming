@@ -15,7 +15,7 @@ if (z <= 0)
 {
 return (NULL);
 }
-i = malloc((sizeof(int)) * height);
+i = malloc((sizeof(int *)) * height);
 if (i == NULL)
 {
 return (NULL);
