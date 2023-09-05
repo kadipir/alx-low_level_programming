@@ -8,9 +8,9 @@
  */
 int **alloc_grid(int width, int height)
 {
-int **i, l, k, z;
+int **i, l, k;
+int z = l * z;
 
-z = l * z;
 if (z <= 0)
 {
 return (NULL);
