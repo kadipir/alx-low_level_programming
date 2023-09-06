@@ -22,7 +22,10 @@ if (cents < 0)
 {
 printf("0\n");
 }
+else
+{
 printf("%d\n", cents);
+}
 }
 return (0);
 }
