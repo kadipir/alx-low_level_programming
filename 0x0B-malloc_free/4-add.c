@@ -1,25 +1,27 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 /**
  * main - entry point
  * @argc: argument count
  * @argv: argumnet vector
  * Return: 0 (success)
  */
-int main(int argc, char *argv)
+int main(int argc, char **argv)
 {
-int i, k;
+int i; 
+unsigned int k, sum;
 char *e;
 
 if (argc > 1)
 {
 for (i = 1 ; i < argc ; i++)
 {
-e = argc[i];
+e = argv[i];
 for (k = 0 ; k < strlen(e) ; k++)
 {
-if (e < 48 || e > 57)
+if (e[k] < 48 || e[k] > 57)
 {
 printf("Error\n");
 return (1);
