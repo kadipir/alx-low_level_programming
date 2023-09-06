@@ -6,7 +6,7 @@
  * main - entry point
  * @argc: argumet count
  * @argv: argument vector
- * return: 0 (success)
+ * Return: 0 (success)
  */
 int main(int argc, char *argv[])
 {
@@ -24,7 +24,7 @@ for (k = 0 ; k < strlen(c) ; k++)
 if (c[k] < 48 || c[k] > 57)
 {
 printf("Error\n");
-return(1);
+return (1);
 }
 }
 sum += atoi(c);
