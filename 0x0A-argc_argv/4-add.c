@@ -11,12 +11,12 @@
 int main(int argc, char *argv[])
 {
 int i;
-unsigned int k, sum;
+unsigned int k, sum = 0;
 char *c;
 
 if (argc > 1)
 {
-for (i = 0 ; i < argc ; i++)
+for (i = 1 ; i < argc ; i++)
 {
 c = argv[i];
 for (k = 0 ; k < strlen(c) ; k++)
