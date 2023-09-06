@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main _ entry point
+ * main - entry point
  * @argc: argument count
  * @argv: argument vector
  * Return: 0 (Successful)
