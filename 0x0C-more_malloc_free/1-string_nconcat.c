@@ -33,7 +33,7 @@ else
 {
 l = i + n;
 }
-c = malloc(sizeof(char) * + 1);
+c = malloc(sizeof(char) * l + 1);
 if (c == NULL)
 {
 return (NULL);
