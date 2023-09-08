@@ -41,6 +41,7 @@ if (c == NULL)
 {
 return (NULL);
 }
+j = 0;
 while (k < l)
 {
 if (k <= i)
