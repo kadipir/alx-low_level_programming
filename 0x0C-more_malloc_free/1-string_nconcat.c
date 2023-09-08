@@ -17,7 +17,7 @@ if (s1 == NULL || s2 == NULL)
 s1 = "";
 s2 = "";
 }
-while (si[i])
+while (s1[i])
 {
 i++;
 }
@@ -42,7 +42,7 @@ while (k < l)
 {
 if (k <= i)
 {
-c[k] = s1[k]
+c[k] = s1[k];
 }
 if (k >= i)
 {
