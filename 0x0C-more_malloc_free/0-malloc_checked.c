@@ -4,7 +4,7 @@
 
 /**
  * malloc_checked - entry point
- * b: input
+ * @b: input
  * Return: void
  */
 void *malloc_checked(unsigned int b)
