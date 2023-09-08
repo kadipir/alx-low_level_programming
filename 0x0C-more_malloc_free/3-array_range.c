@@ -20,6 +20,7 @@ if (l == NULL)
 {
 return (NULL);
 }
+i = 0;
 while (min <= max)
 {
 l[i] = min;
