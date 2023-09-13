@@ -1,4 +1,4 @@
-#include "main.h"
+#include "function_pointers.h"
 #include <stdio.h>
 /**
  * print_name - entry point
@@ -10,7 +10,7 @@ void print_name(char *name, void (*f)(char *))
 {
 if (name == NULL || f == NULL)
 {
-return (0);
+return;
 }
 
 f(name);
