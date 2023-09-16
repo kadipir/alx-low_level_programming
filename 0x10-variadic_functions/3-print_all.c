@@ -13,7 +13,7 @@ va_list ls;
 int i = 0;
 char *str, *sep = "";
 va_start(ls, format);
-if (format[i])
+if (format)
 {
 while (format[i])
 {
