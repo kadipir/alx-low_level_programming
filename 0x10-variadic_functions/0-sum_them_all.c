@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "variadic_functions.h"
 /**
- * sum-them_all - entry point
+ * sum_them_all - entry point
  * @n: variadic argument
  * Return: 0 (Sucesfull)
  */
@@ -14,7 +14,7 @@ int i, total;
 va_start(sum, n);
 for (i = n ; i > 0 ; i = va_arg(sum, int))
 {
-total+=i;
+total += i;
 printf("%d", total);
 }
 return (0);
