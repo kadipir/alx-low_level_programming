@@ -17,13 +17,13 @@ if (format[i])
 {
 while (format[i])
 {
-switch format[i]
+switch (format[i])
 {
 	case 'c':
-		printf("%s%s",sep, va_arg(ls, int));
+		printf("%s%c",sep, va_arg(ls, int));
 		break;
         case 'i':
-		print("%s%d", sep, va_arg(ls, int));
+		printf("%s%d", sep, va_arg(ls, int));
 		break;
 	case 'f':
 		printf("%s%f", sep, va_arg(ls, double));
@@ -36,13 +36,13 @@ switch format[i]
 		break;
 	default:
 		i++;
-		comtinue;
+		continue;
 
 }
 sep = ", ";
-i++
+i++;
 }
 }
 printf("\n");
-va_end(ls)
+va_end(ls);
 }
