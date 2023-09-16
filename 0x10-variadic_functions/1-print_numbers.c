@@ -3,10 +3,10 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
- * print_numbers: entry point
+ * print_numbers - entry point
  * @separator: pointer to a character
  * @n: input
- * Return: void
+ * @...: a variable number of numbers to be printed
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
