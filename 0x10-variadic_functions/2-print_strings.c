@@ -17,7 +17,7 @@ va_start(string, n);
 for (i = 0 ; i < n ; i++)
 {
 str = va_arg(string, char *);
-if (separator == NULL)
+if (str == NULL)
 {
 printf("(nil)");
 }
