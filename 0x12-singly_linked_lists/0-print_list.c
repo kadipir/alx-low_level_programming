@@ -13,7 +13,7 @@ size_t index = 0;
 while (h)
 if (h->str != NULL)
 {
-printf("[0] NIl\n");
+printf("[0] (nil)\n");
 }
 else
 {
