@@ -1,8 +1,8 @@
-#include "main.h"
+#include "lists.h"
 /**
- *
- *
- *
+ * get_nodeint_at_index - entry point
+ * @head: first node pointer
+ * @index:  umber of node to return
  *
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
