@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stddef.h>
-/** 
- * get_bit: entry point
+/**
+ * get_bit - entry point
  * @n: input decimal
  * @index: position to be retrieved
  * Return: 1 0r 0
