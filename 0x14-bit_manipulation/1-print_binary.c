@@ -1,37 +1,40 @@
 #include "main.h"
-
-unsigned long int _pow(unsigned int base, unsigned int power)
+/**
+ *
+ *
+ *
+ *
+ */
+void print_bi(unsigned int n)
 {
-unsigned int x;
-unsigned int y;
-
-x = 1;
-for (y = 1 ; y < power ; y++ )
+if (n == 0)
 {
-x *= base;
+return;
 }
-return (x);
-}
-
-void print_binary(unsigned long int n)
+print_bi(n >> 1);
+if ((n & 1) == 1)
 {
-unsigned long int binary, z;
-char flag;
-
-flag = 0;
-binary =  _pow(2, sizeof(unsigned long int) * 8 - 1);
-while (binary != 0)
-{
-z = n & binary;
-if (z == binary)
-{
-flag = 1;
 _putchar('1');
 }
-else if (flag == 1 || binary == 1)
+if ((n & 1) == 0)
 {
 _putchar('0');
 }
-binary >>= 1;
+}
+/**
+ *
+ *
+ *
+ *
+ */
+void print_binary(unsigned long int n)
+{
+if (n == 0)
+{
+_putchar('0');
+}
+else
+{
+print_bi(n);
 }
 }
