@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- *
- *
- *
- *
+ * print_bi - entry point
+ * @n: decimal input
+ * Return: void
  */
 void print_bi(unsigned int n)
 {
@@ -22,10 +21,9 @@ _putchar('0');
 }
 }
 /**
- *
- *
- *
- *
+ * print_binary - entry point
+ * @n: decimal to be converted
+ * Return: void
  */
 void print_binary(unsigned long int n)
 {
