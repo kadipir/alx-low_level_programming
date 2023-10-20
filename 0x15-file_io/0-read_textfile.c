@@ -13,7 +13,7 @@ int fd;
 ssize_t lr, lw;
 char  *buffer;
 
-if (!filename)
+if (filename == NULL)
 {
 return (0);
 }
@@ -23,7 +23,7 @@ if (fd == -1)
 return (0);
 }
 buffer = malloc(sizeof(char) * letters);
-if (buffer)
+if (buffer == NULL)
 {
 close(fd);
 return (0);
