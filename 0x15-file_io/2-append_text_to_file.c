@@ -22,7 +22,7 @@ return (-1);
 }
 if (text_content)
 {
-for(letters = 0 ; text_content[letters] ; letters++)
+for (letters = 0 ; text_content[letters] ; letters++)
 
 w = write(fd, text_content, letters);
 if (w == -1)
