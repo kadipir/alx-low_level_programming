@@ -24,7 +24,8 @@ if (text_content == NULL)
 {
 text_content = "";
 }
-for (letters = 0 ; text_content[letters]; letters++)
+for (letters = 0 ; text_content[letters] ; letters++)
+
 rwr = write(fd, text_content, letters);
 if (rwr == -1)
 {
