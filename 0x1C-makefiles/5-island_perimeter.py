@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 
 def def island_perimeter(grid):
+    """this method finds the perimeter of an island surrounded by water
+    in the grid 0 rep water and 1 land
+     args: grid- consist of integers rep land and water
+     Return: perimeter of the island
+     """
     perimeter = 0
     for i in range(len(grid)):
         for x in range(len(grid[i])):
